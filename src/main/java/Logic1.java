@@ -108,9 +108,11 @@ public class Logic1
     public boolean specialEleven(int n) {
         if (n%11 == 0 ){
 		  return true;
-	  }else if((n-1) % 11 == 0 ){
+	  }
+	else if((n-1) % 11 == 0 ){
 		  return true;
-	  }else{
+	  }
+	else{
 		  return false;
 	  }
     }
@@ -196,11 +198,11 @@ public class Logic1
       if (n <= 10 && n >= 1){
             return true;
         }
-        else{
+        else {
             if (outsideMode == true){
                 return true;
             }
-            else{
+            else {
                 return false;
             }
         }
