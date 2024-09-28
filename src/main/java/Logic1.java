@@ -492,7 +492,7 @@ public class Logic1
             return "Fizz!";
         }
         else{
-            return n + "!";
+            return n+"!";
         }
     }
 
