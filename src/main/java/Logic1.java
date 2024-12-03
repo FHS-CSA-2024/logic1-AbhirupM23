@@ -163,7 +163,7 @@ public class Logic1
     nearTen(17) --> false
     nearTen(19) --> true */
     public boolean nearTen(int num) {
-      if ((num+1)%10 == 0 || (num-1)%10 == 0){
+      if (num%10 <= 2 || num%10 >= 8){
 		  return true;
 	  }
 	  return false;
